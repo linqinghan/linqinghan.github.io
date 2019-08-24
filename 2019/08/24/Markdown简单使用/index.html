@@ -5,15 +5,19 @@
   
 
   
-  <title>Hexo</title>
+  <title>Markdown简单使用 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="标题 12# h1  : 标题等级一，在文件前面放置一个#号## h2 : 标题等级二，在文件前面放置两个#号  引用  小于号&amp;gt;放在文字的前面     列表   123无序列表: 在文件前面放置一个-[也可以放置一个*号或者一个+号]有序列表：在文字前面放置数字加一个.号  链接   1[方括号里面放显示的文字](圆括号里面放链接地址)  图片   1![ALT文字](图片链接地址)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown简单使用">
+<meta property="og:url" content="http://yoursite.com/2019/08/24/Markdown简单使用/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="标题 12# h1  : 标题等级一，在文件前面放置一个#号## h2 : 标题等级二，在文件前面放置两个#号  引用  小于号&amp;gt;放在文字的前面     列表   123无序列表: 在文件前面放置一个-[也可以放置一个*号或者一个+号]有序列表：在文字前面放置数字加一个.号  链接   1[方括号里面放显示的文字](圆括号里面放链接地址)  图片   1![ALT文字](图片链接地址)">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-08-24T13:22:37.678Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Markdown简单使用">
+<meta name="twitter:description" content="标题 12# h1  : 标题等级一，在文件前面放置一个#号## h2 : 标题等级二，在文件前面放置两个#号  引用  小于号&amp;gt;放在文字的前面     列表   123无序列表: 在文件前面放置一个-[也可以放置一个*号或者一个+号]有序列表：在文字前面放置数字加一个.号  链接   1[方括号里面放显示的文字](圆括号里面放链接地址)  图片   1![ALT文字](图片链接地址)">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -60,9 +64,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Markdown简单使用" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Markdown简单使用" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/08/24/Markdown简单使用/" class="article-date">
   <time datetime="2019-08-24T13:21:18.000Z" itemprop="datePublished">2019-08-24</time>
@@ -75,8 +77,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/08/24/Markdown简单使用/">Markdown简单使用</a>
+    <h1 class="article-title" itemprop="name">
+      Markdown简单使用
     </h1>
   
 
@@ -137,121 +139,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hexo使用" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/08/24/hexo使用/" class="article-date">
-  <time datetime="2019-08-24T13:13:21.000Z" itemprop="datePublished">2019-08-24</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/08/24/hexo使用/">Hexo使用</a>
-    </h1>
+    <a href="/2019/08/24/hexo使用/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hexo使用</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ol>
-<li><p>下载并安装git<br><a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></p>
-</li>
-<li><p>下载并安装node.js<br><a href="https://nodejs.org" target="_blank" rel="noopener">Node.js</a><br>在命令行下执行命令 <code>node -v</code><br>输出如下信息：<br><code>v10.16.3</code></p>
-</li>
-<li><p>安装Hexo<br>执行命令 <code>npm install -g hexo-cli</code><br>执行命令 <code>hexo -v</code>来确认安装成功<br>安装发布工具 <code>npm install hexo-deployer-git --save</code></p>
-</li>
-</ol>
-<hr>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ol>
-<li>创建blog </li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>后面的blog为名字，可以任意。本地会创建一个文件夹    </p>
-</blockquote>
-<ol start="2">
-<li>生成文件，并启动服务</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>其中hexo generate可以简写成<strong>hexo g</strong>, hexo server 可以简写成<strong>hexo s</strong> </p>
-</blockquote>
-<ol start="3">
-<li>在浏览器查看已经创建的服务器<br>打开地址 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></li>
-</ol>
-<h2 id="发布到Github"><a href="#发布到Github" class="headerlink" title="发布到Github"></a>发布到Github</h2><ol>
-<li><p>创建一个github账号<br><a href="https://github.com/" target="_blank" rel="noopener">github</a></p>
-</li>
-<li><p>新建一个repo<br>名字必须为 <strong>xxx.github.io</strong>, 其中xxx为github账号名称</p>
-</li>
-<li><p>修改blog目录下的站点配置文件<strong>_config.yml</strong>的配置项deploy</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/xxx/xxx.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<blockquote>
-<p>注意冒号后面有一个空格</p>
-</blockquote>
-<ol start="4">
-<li>发布到服务器上<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<blockquote>
-<p>其中hexo deploy可以简写成<strong>hexo d</strong></p>
-</blockquote>
-<ol start="5">
-<li>打开浏览器查看服务器<br>打开地址 <a href="http://xxx.github.io" target="_blank" rel="noopener">http://xxx.github.io</a></li>
-</ol>
-<hr>
-<h2 id="写新文章"><a href="#写新文章" class="headerlink" title="写新文章"></a>写新文章</h2><ol>
-<li>新增加一个文章<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;hexo使用&quot;</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<blockquote>
-<p>这样就在blog/source/_posts新增加一个文件<strong>hexo使用.md</strong>的文件</p>
-</blockquote>
-<ol start="2">
-<li><p>进入目录修改上述文件</p>
-<blockquote>
-<p>不要删除前面自动生成的东西</p>
-</blockquote>
-</li>
-<li><p>重新生成并发布到服务器上</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>确认新文档发布成功</p>
-</li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/24/hexo使用/" data-id="cjzpkqv8f0001v0g14ehra3rz" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
